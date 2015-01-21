@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(set = set, get = get,
        setminver = setminver,
        getminver = getminver)
-}
+} 
 
 
 ## x represents a list of functions ADT, (see makeCacheMatrix above)
